@@ -1,0 +1,54 @@
+/* --- BASE STYLE --- */
+
+:root {
+
+    /* === MARGIN === */
+
+    /* === PADDING === */
+
+    /* === TRANSFORM === */
+
+    /* === FONT SIZE === */
+
+    /* === FONT POLICE === */
+
+    /* === TRANSITION === */
+    --trans-3: .3s ease;
+    --trans-5: .5s ease;
+
+    /* === COLOR === */
+    --web-site-menu-btn: #000;
+
+    /* === LINE HEIGHT === */
+
+}
+
+*, *::before, *::after, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html, body {
+    color: var(--dark-color);
+    text-rendering: optimizeLegibility;
+    line-height: 1.5;
+}
+
+ul, li {
+    position: relative;
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
