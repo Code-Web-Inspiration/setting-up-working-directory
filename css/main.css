@@ -1,18 +1,15 @@
 /* --- MAIN FILE CSS --- */
 
-/* --- BASE --- */
-@import 'base/_base.css';
+/*--- GOOGLE FONT ---*/
+
+/* --- GLOBALS --- */
+@import './_globals.css';
 
 /* --- GRID --- */
-@import 'layout/_grid.css';
+@import './components/_grid.css';
 
-/* --- COMPONENT --- */
-@import 'component/_component.css';
+/* --- COMPONENTS --- */
+@import './components/_components.css';
 
-/* --- MAIN MODULE --- */
-
-
-
-
-/* --- RESPONSIVE --- */
-@import 'responsive-media/_@main.css';
+/* --- PAGES --- */
+/* @import './pages/file.css' */

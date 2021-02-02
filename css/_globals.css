@@ -1,0 +1,50 @@
+/* --- GLOBALS STYLE --- */
+
+/*--- :root config
+:root {
+    --family: ....
+    --main: ...
+    --line-h: ...
+    --letter-sp: ...
+    --container-padding: ...
+}
+------*/
+
+
+
+*, *::before, *::after, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--family);
+}
+
+html, body {
+    color: var(--main);
+    line-height: var(--line-h);
+    letter-spacing: var(--letter-sp);
+    text-rendering: optimizeLegibility;
+}
+
+header, section, footer {
+    position: relative;
+    z-index: 0;
+}
+
+ul, ol, li {
+    position: relative;
+    list-style: none;
+}
+
+a, a:link, a:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+

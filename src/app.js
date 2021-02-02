@@ -1,5 +1,6 @@
 "use strict";
 
+
 // JAVASCRIP FILE
 
 const navBar = document.querySelector('#header-nav-bar')
