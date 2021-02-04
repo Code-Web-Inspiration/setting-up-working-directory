@@ -6,7 +6,7 @@
 @import './_globals.css';
 
 /* --- GRID --- */
-@import './components/_grid.css';
+@import './components/_layout.css';
 
 /* --- COMPONENTS --- */
 @import './components/_components.css';
